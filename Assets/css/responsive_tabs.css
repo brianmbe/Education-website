@@ -109,6 +109,53 @@
     color: var(--color-white);
   }
 
+  header {
+    height: 52vh;
+    margin-bottom: 4rem;
+  }
+
+  .header__container {
+    gap: 0;
+    padding-bottom: 3rem;
+  }
+
+  .categories {
+    height: auto;
+  }
+
+  .categories__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .categories__left {
+    margin-right: 0;
+  }
+
+  /* Popular courses */
+  .courses {
+    margin-top: 0;
+  }
+
+  .courses__container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Faqs */
+  .faqs__container {
+    grid-template-columns: 1fr;
+  }
+
+  .faq {
+    padding: 1rem;
+  }
+
+  /* footer */
+  .footer__container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Animations */
   @keyframes animateNavItem {
     0% {
       transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
@@ -120,4 +167,28 @@
   }
 
   /* Navbar */
+
+  /* About page */
+  .about__achievements {
+    margin-top: 2rem;
+  }
+  /* About page */
+
+  .about__achievements-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about__achievements-left {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .team__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .team__member {
+    padding: 1rem;
+  }
 }
